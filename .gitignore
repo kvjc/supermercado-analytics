@@ -15,4 +15,14 @@ Thumbs.db
 
 # Opcional: si el dataset pesa mucho
 data/raw/
+data/processed/*
+data/results/*
+data/quarantine/*
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/results/.gitkeep
+!data/quarantine/.gitkeep
+notebooks/content/
+notebooks/outputs/
 *.zip

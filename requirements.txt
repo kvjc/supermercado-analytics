@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+pydantic
+python-multipart
+# Opcional para guardar parquet si se desea:
+# pyarrow
+# Opcional para reglas de asociacion avanzadas:
+# mlxtend
