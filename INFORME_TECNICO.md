@@ -28,7 +28,7 @@ La estructura base de las transacciones puede resumirse así:
 
 ```txt
 fecha | sucursal | id_cliente | listado_productos_comprados
-````
+```
 
 Cada registro representa una transacción, pero el campo de productos contiene varios productos dentro de una misma celda.
 
@@ -52,7 +52,7 @@ Después del procesamiento, la base final no inflada contiene:
 | Transacciones únicas |               1.108.987 |
 | Clientes únicos      |                 131.186 |
 | Productos únicos     |                     449 |
-| Categorías válidas   |                      21 |
+| Categorías válidas   |                      20 |
 | Rango de fechas      | 2013-01-01 a 2013-06-30 |
 
 Cada línea procesada representa un producto comprado. Dado que el dataset no contiene precios ni montos de pago, el análisis se basa en métricas relativas como volumen, frecuencia, diversidad de productos y comportamiento de compra.
@@ -444,6 +444,8 @@ Comando de ejecución:
 
 ```bash
 python -m pipeline.run_pipeline
+```
+
 
 Este enfoque mantiene la reproducibilidad del análisis y evita que el frontend asuma responsabilidades de procesamiento pesado.
 
